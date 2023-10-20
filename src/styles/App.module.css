@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #282c34;
+}
+
+
+
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Layout header */
+.header {
+    height: 60px;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    margin: 0 10px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
